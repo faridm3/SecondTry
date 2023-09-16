@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity(), DataBack, Serializable {
     override fun mydata(name: String) {
         println("Hi...")
         println(name)
-        val textView = findViewById<TextView>(R.id.textView222)
-        textView.text = name
+//        val textView = findViewById<TextView>(R.id.textView222)
+//        textView.text = name
     }
 }
